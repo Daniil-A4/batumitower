@@ -1,0 +1,527 @@
+@media (max-width: 1219px) {
+  .peculiarities__wrapper {
+    flex: 0 1 100%;
+    margin-bottom: 0px;
+    padding: 0 10px 0 0px;
+    display: flex;
+    align-items: center;
+
+  }
+  .peculiarities__num {
+    width: 20%;
+  }
+
+  .peculiarities__content {
+    width: 80%;
+  }
+
+  .appartments__swiper {
+    width: 80vw;
+    height: auto;
+  }
+
+  .appartments__columns {
+    display: flex;
+  }
+
+  .appartments__slide {
+    flex-grow: 1;
+  }
+
+  .appartments__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid var(--gold-color);
+    padding: 40px;
+  }
+
+  /* .appartments__image img {
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+  } */
+
+  .appartments__column {}
+
+  .about__row:not(:first-child) {
+    margin-top: 50px;
+  }
+
+}
+
+@media (max-width: 1119px) {
+  .appartments__box {
+    flex-wrap: wrap;
+
+  }
+
+  .appartments__column {
+    text-align: center;
+    width: 100%;
+  }
+
+  .appartments-right__list {}
+}
+
+@media (max-width: 991px) {
+  .about__row {
+    padding-left: 0px;
+  }
+
+  .about__columns {
+    flex-wrap: wrap;
+  }
+
+  .about__column-left {
+    padding: 0 50px 50px;
+    width: 100%;
+  }
+
+  .title {
+    margin-left: 50px;
+  }
+
+  .about__title-ad,
+  .about__title,
+  .about__gallery-title {
+    text-align: center;
+    width: unset;
+  }
+
+  .video video {
+    height: 100vh;
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* =========================== */
+  .peculiarities__wrapper {
+    padding: 0 50px;
+  }
+
+  /* ============================ */
+
+  .appartments__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    border: 2px solid var(--gold-color);
+    padding: 20px;
+  }
+
+  .appartments__image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .appartments__swiper {
+    width: 80vw;
+    height: auto;
+  }
+
+  /* ============================ */
+  .gallery__controls {
+    gap: 20px;
+  }
+
+  /* ============================ */
+  .footer__contacts {
+    padding: 15px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+}
+@media (min-width: 767px) {
+  .header__language-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__language {
+    display: none;
+  }
+  .header__language-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    z-index: 8;
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .header__link-lang {
+    font-size: 18px;
+    color: black;
+  }
+
+  .header__lang-item:not(:last-child)::after {
+    background-color: black;
+  }
+  .about__column-left {
+    padding: 0 15px 50px;
+  }
+
+  .peculiarities__num {
+    font-size: 150px;
+    margin-right: 10px;
+  }
+
+  .title {
+    margin: 0 15px;
+    text-align: center;
+  }
+
+  .about__sub-title {
+    margin-top: 30px;
+  }
+
+  .infrastructure__slider {
+    margin-top: 30px;
+  }
+
+  .gallery-about {
+    padding: 40px 0px;
+  }
+
+  .peculiarities__wrapper {
+    padding: 0 15px;
+  }
+
+  .peculiarities__num {
+    font-size: 110px;
+    margin-right: 0;
+    width: 20%;
+  }
+
+  .peculiarities__content {
+    width: 80%;
+  }
+
+  .advantages__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantages__column {
+    width: 100%;
+  }
+
+  .advantages__image-left,
+  .advantages__image-right {
+    width: 100%;
+  }
+
+  /* ========================== */
+  .hero__phone,
+  .hero__address {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* ========appartments==================== */
+  .appartments {
+    padding: 50px 0;
+  }
+
+  /* =======price===================== */
+  .price {
+    padding: 20px 50px;
+  }
+
+  /* =======sales-department===================== */
+  .sales-department {
+    padding: 0 15px;
+  }
+
+  .sales-department__form {
+    width: 90%;
+  }
+
+  .sales-department__row:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .sales-department__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .sales-department__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  /* ============================ */
+  .gallery__title {
+    position: relative;
+    margin: 0 auto 35px;
+    width: max-content;
+    font-size: 37px;
+    font-weight: 600;
+  }
+
+  .gallery__controls {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 0px 15px;
+  }
+
+  .call {
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    z-index: 20;
+    transition: all .3s;
+}
+}
+
+
+@media (max-width: 590px) {
+  .title-dep-ge {
+    width: min-content;
+    text-align: center;
+}
+}
+
+@media (max-width: 479px) {
+  .header {
+    height: 70px;
+    padding: 0 30px;
+  }
+
+  .hero__body {
+    grid-template-rows: 46% 7% 33%;
+  }
+
+  .hero__contacts {
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+  }
+
+  .add-line {
+    width: unset;
+  }
+
+  /* ================================= */
+
+  .about {
+    padding-top: 70px;
+  }
+
+  .about__main-title,
+  .sales-department__title,
+  .gallery__title {
+    font-size: 32px;
+    margin: 0 auto 50px;
+  }
+
+  /* .title-dep {
+    font-size: 24px;
+  } */
+
+  .about__columns {
+    margin-top: 40px;
+  }
+
+  .about__column {
+    margin-top: 20px;
+  }
+
+
+  .about__sub-title {
+    margin-left: 0px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .about__info::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--gold-color);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .about__info {
+    margin-top: 15px;
+  }
+
+  .advantages {
+    margin-top: 30px;
+
+  }
+
+  .advantages__info {
+    padding: 15px 10px;
+  }
+
+  .advantages__info::after {
+    left: 30px;
+  }
+
+  /* ========appartments========================== */
+  .appartments {
+    padding: 50px 0;
+  }
+
+  .appartments-right__area,
+  .appartments-right__descr {
+    font-size: 18px;
+  }
+
+  .appartments__swiper-button-next {
+    right: 0%;
+  }
+  
+  .appartments__swiper-button-prev {
+    left: 0%;
+  }
+
+  /* =======price===================== */
+  .price {
+    padding: 20px 15px;
+  }
+
+  .price__wrapper {
+    display: flex;
+    gap: 40px;
+    margin-top: 15px;
+  }
+
+  /* ================================== */
+
+  .gallery-about {
+    padding: 40px 10px;
+    background-color: #e2e2e2;
+    color: #000;
+    position: relative;
+    z-index: 2;
+  }
+
+  
+
+  /* =======gallery====================== */
+
+  .gallery__button {
+    height: 40px;
+  }
+    /* ============================= */
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset, 75%);
+  }
+
+  .call {
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+}
+
+  .page__map {
+    margin-bottom: -4px;
+}
+  /* ========footer================== */
+
+  .footer {
+    position: relative;
+    top: 0;
+  }
+  /* .visible {
+    top: calc(100vh - 10px);
+  } */
+}
+
+@media (max-width: 350px) {
+  .header__request {
+    display: none;
+  }
+
+  .hero__address,
+  .hero__phone {
+    width: 90%;
+  }
+/* =======about====================== */
+  .peculiarities__title {
+    font-size: 16px;
+  }
+
+  .sales-department__title,
+  .about__main-title,
+  .gallery__title {
+    font-size: 22px;
+  }
+  
+  .peculiarities__wrapper {
+    padding: 0 10px;
+}
+   .about__info {
+    font-size: 14px;
+   }
+
+   .peculiarities__num {
+    font-size: 80px;
+   }
+
+  /* ==========appartments============= */
+ 
+  .appartments-right__area,
+  .appartments-right__descr {
+    font-size: 14px;
+  }
+
+  .appartments__swiper-button-next {
+    right: -3%;
+  }
+  
+  .appartments__swiper-button-prev {
+    left: -4%;
+  }
+/* ==========price============= */
+  .price__wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+  }
+
+  .price__digits {
+    font-size: 16px;
+  }
+  .price__text {
+    font-size: 12px;
+  }
+
+   /* =======gallery====================== */
+   .gallery__controls {
+    gap: 10px;
+}
+   .gallery__button {
+    width: 45%;
+    height: 40px;
+  }
+}
